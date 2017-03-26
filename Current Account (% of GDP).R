@@ -64,3 +64,4 @@ legend("topleft", legend=colnames(ts), cex=0.90, lwd=4, col=colseq,
 )
 dev.print(device=pdf, file="BCH_CA_WDI.pdf", width=8, height=6)
 
+barplot(ts, main="Agriculture, value add(% of GDP) from 2000 to 2015 ", horiz=TRUE, las=1, cex.names=0.5, border=NA)
